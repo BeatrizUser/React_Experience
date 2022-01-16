@@ -1,16 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import Tweet from './tweet';
 import reportWebVitals from './reportWebVitals';
 import imgUser1 from "./assets/toilet ban.png"
+import imgUser2 from "./assets/foto2.jpg"
+import PostTweet from "./postTweet"
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <App /> */}
     <div className='containerTweets'>
-    <Tweet name= "Pedro" nameShort= "@pedrozero" tweet= "Agora, aos 22 anos meu irmão morador do Rj descobriu que Tijuca e Barra da Tijuca não é o mesmo lugar!" src={imgUser1}/>
+    <PostTweet user="default" src={imgUser2}/>
+    <Tweet name= "Pedro" nameShort= "@pedroca" tweet= "Fala Mundo!" src={imgUser1}/>
     <Tweet name= "Julia" nameShort= "@julinha" tweet= "Pum!" src={imgUser1}/>
     <Tweet name= "Bia" nameShort= "@bibinha" tweet= "Catchau!" src={imgUser1}/>
     </div>

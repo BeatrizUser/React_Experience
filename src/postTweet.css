@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.postTweet-content{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    border: 1.5px solid rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+.postTweet-imgUser{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: rgb(223, 222, 222) 1px 2px 5px;
+}
+.postTweet-inputarea{
+    display: flex;
+    height: 17vh;
+    max-width: 70vw;
+    margin: 0px 10px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.postTweet-input{
+    font-family: 'Roboto', sans-serif;
+    word-wrap: break-word;
+    padding-top: 12px;
+    font-size: 18.5px;
+    height: 12vh;
+    width: 70vw;
+    border: 0px;
+    background-color: transparent;
+}
+.postTweet-input :active{
+    border: 10px;
+    background-color: transparent;
+}
+.postTweet-btnEnviar{
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    height: 36px;
+    width: 90px;
+    border: 0px;
+    border-radius: 100px;
+    background-color: rgb(29, 155, 240);
+    transition: 0.8s all ease;
+}
+.postTweet-btnEnviar:active{
+    font-size: 16px;
+    background-color: rgb(14, 128, 204);
+}
+.postTweet-btnEnviar:hover{
+    background-color: rgb(14, 128, 204);
+    transition: 0.8s all ease;
+}
+textarea:focus-visible {
+    border-color: white;
+}
