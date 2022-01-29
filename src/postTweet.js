@@ -9,8 +9,8 @@ function postTweet(props) {
         <img className='postTweet-imgUser' src={props.src} alt=''></img>
         </div>
         <div className='postTweet-inputarea'>
-            <textarea className='postTweet-input' size="280" placeholder="O que está acontecendo?"></textarea>
-            <button className='postTweet-btnEnviar'>Tweetar</button>
+            <textarea id='postTweet-input' size="280" placeholder="O que está acontecendo?"></textarea>
+            <button id='postTweet-btnEnviar'>Tweetar</button>
         </div>
     </div>
     )
