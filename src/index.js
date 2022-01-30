@@ -11,7 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <div className='containerTweets'>
     <PostTweet user="default" src={imgUser2}/>
-    <Tweet name= "Suelyo" nameShort= "@Bodão" tweet= "Wu amo vcs!!" src={imgUser1}/>
+    <Tweet name= "Suelyo" nameShort= "@Bodão2" tweet= "Wu amo vcs!!" src={imgUser1}/>
     <Tweet name= "Julia" nameShort= "@julinha" tweet= "Pum!" src={imgUser1}/>
     <Tweet name= "Bia" nameShort= "@bibinha" tweet= "Catchau!" src={imgUser1}/>
     </div>
