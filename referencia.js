@@ -8,6 +8,8 @@ const listaProdutos = [
   ]
   export default listaProdutos
   
+------------------------------------------------------------------------------------------------
+
   import React from "react";
   import produtos from "../../data/produtos";
   import "../repetição/TabelaProdutos.css";
