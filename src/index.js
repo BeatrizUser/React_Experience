@@ -3,17 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Tweet from './tweet';
 import reportWebVitals from './reportWebVitals';
-import imgUser1 from "./assets/toilet ban.png"
-import imgUser2 from "./assets/foto2.jpg"
-import PostTweet from "./postTweet"
 
 ReactDOM.render(
   <React.StrictMode>
     <div className='containerTweets'>
-    <PostTweet user="default" src={imgUser2}/>
-    <Tweet name= "Suelyo" nameShort= "@Bodão2" tweet= "Wu amo vcs!!" src={imgUser1}/>
-    <Tweet name= "Julia" nameShort= "@julinha" tweet= "Pum!" src={imgUser1}/>
-    <Tweet name= "Bia" nameShort= "@bibinha" tweet= "Catchau!" src={imgUser1}/>
+    <Tweet/>
     </div>
   </React.StrictMode>,
   document.getElementById('root')
